@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.header {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav:nth-child(1) p {
+    font-weight: bold;
+}
+
+.header nav:last-child i {
+    font-size: 20px;
+}
