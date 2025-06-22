@@ -8,6 +8,7 @@ body {
     font-family: system-ui;
 }
 
+/* start header */
 .header {
     padding: 10px 0;
     text-transform: uppercase;
@@ -25,3 +26,53 @@ body {
 .header nav:last-child i {
     font-size: 20px;
 }
+
+/* end header */
+
+/* start main */
+
+/* start section-1 */
+.home {
+    margin: 20px 10px;
+}
+
+.home .information div {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.home .information input {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    background-color: #E8EDF5;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home .information .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin: auto;
+}
+
+.home .information .total .users, .sales, .revenue {
+    background-color: #E8EDF5;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.home .information .revenue {
+    margin: auto;
+}
+
+/* end section-1 */
+
+/* end main */
