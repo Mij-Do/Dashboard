@@ -35,7 +35,9 @@ body {
 .home {
     margin: 20px 10px;
 }
-
+.home .information {
+    margin-bottom: 40px;
+}
 .home .information div {
     margin: 20px 0;
     border-radius: 5px;
@@ -73,6 +75,26 @@ body {
     margin: auto;
 }
 
+/* ######################### */
+
+.home .recent {
+    width: 90%;
+    margin: auto;
+}
+
+.recent h2 {
+    margin: 10px 0;
+}
+.recent .products .carda, .cardb, .cardc {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carda p, .cardb p, .cardc p {
+    color: #4A739C;
+}
 /* end section-1 */
 
 /* end main */
