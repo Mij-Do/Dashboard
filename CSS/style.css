@@ -98,3 +98,33 @@ body {
 /* end section-1 */
 
 /* end main */
+
+
+/* start footer */
+
+footer {
+    margin-top: 60px;
+    border-top: #4A739C 1px dashed;
+}
+
+footer .items {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .items div i {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #4A739C;
+}
+
+footer .items div .active {
+    color: black;
+}
+
+/* end footer */
