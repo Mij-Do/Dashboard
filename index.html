@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="information">
                 <div>
                     <input type="search" name="search" id="search" placeholder="SEARCH">
@@ -86,7 +86,7 @@
         </section>
 
         <!-- analytics -->
-        <section class="analytics">
+        <section class="analytics" id="analytics">
             <h2>ANALYTICS</h2>
             <div class="overview">
                 <h3>OVERVIEW</h3>
@@ -167,7 +167,7 @@
         </section>
 
         <!-- settings -->
-        <section class="settings">
+        <section class="settings" id="settings">
             <h2>Settings</h2>
             <div class="profile">
                 <h3>Profile</h3>
@@ -211,9 +211,9 @@
     <!-- footer -->
     <footer>
         <div class="items">
-            <div> <i class="fa-solid fa-house active"></i> </div>
-            <div> <i class="fa-solid fa-chart-pie"></i> </div>
-            <div> <i class="fa-solid fa-gears"></i> </div>
+            <div id="house" onclick={houseClick()}> <i id="fahouse" class="fa-solid fa-house active"></i> </div>
+            <div id="chart" onclick={chatClick()}> <i id="fachart" class="fa-solid fa-chart-pie"></i> </div>
+            <div id="gears" onclick={gearsClick()}> <i id="fagears" class="fa-solid fa-gears"></i> </div>     
         </div>
     </footer>
     <script src="./JS/main.js"></script>
