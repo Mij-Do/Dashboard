@@ -140,17 +140,17 @@ body {
 }
 
 /* engagnent */
-.analytics .engagment {
+.analytics .engagment, .ANAsales {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.analytics .engagment h3 {
+.analytics .engagment h3, .ANAsales h3 {
     margin: 20px 0;
 }
 
-.analytics .engagment .engagContent, .SessionDuration {
+.analytics .engagment .engagContent, .SessionDuration, .salesContent, .revenueOverTime  {
     border: 1px solid #c5c5c5;
     padding: 10px;
     width: 60%;
@@ -159,20 +159,20 @@ body {
     border-radius: 5px;
 }
 
-.analytics .engagment .engagContent img, .SessionDuration img {
+.analytics .engagment .engagContent img, .SessionDuration img, .salesContent img, .revenueOverTime img {
     width: 100%;
     margin: 10px 0;
 }
 
 @media (max-width: 767px) {
-    .analytics .engagment .engagContent, .SessionDuration {
+    .analytics .engagment .engagContent, .SessionDuration, .salesContent, .revenueOverTime {
         width: 90%;
     }
 }
-.analytics .engagment .engagContent span, .SessionDuration span {
+.analytics .engagment .engagContent span, .SessionDuration span, .salesContent span, .revenueOverTime span {
     color: gray;
 }
-.analytics .engagment .engagContent .green {
+.analytics .engagment .engagContent .green, .salesContent .green, .revenueOverTime .green {
     color: green;
 }
 .analytics .engagment .SessionDuration .red {
