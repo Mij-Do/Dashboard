@@ -140,26 +140,43 @@ body {
 }
 
 /* engagnent */
+.analytics .engagment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .analytics .engagment h3 {
     margin: 20px 0;
 }
 
-.analytics .engagment .engagContent {
+.analytics .engagment .engagContent, .SessionDuration {
     border: 1px solid #c5c5c5;
     padding: 10px;
     width: 60%;
     text-align: center;
     margin: auto;
+    border-radius: 5px;
 }
 
-.analytics .engagment .engagContent img {
+.analytics .engagment .engagContent img, .SessionDuration img {
     width: 100%;
+    margin: 10px 0;
 }
 
 @media (max-width: 767px) {
-    .analytics .engagment .engagContent {
+    .analytics .engagment .engagContent, .SessionDuration {
         width: 90%;
     }
+}
+.analytics .engagment .engagContent span, .SessionDuration span {
+    color: gray;
+}
+.analytics .engagment .engagContent .green {
+    color: green;
+}
+.analytics .engagment .SessionDuration .red {
+    color: red;
 }
 /* end section -2 analytics */
 
