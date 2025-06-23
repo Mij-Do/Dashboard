@@ -100,19 +100,19 @@ body {
 /* end section-1 */
 
 /* start section -2 analytics */
-.analytics {
+.analytics, .settings {
     margin: auto;
     width: 90%;
 }
 
-.analytics h2 {
+.analytics h2, .settings h2 {
     text-align: center;
     margin: 20px 0;
 }
 
 /* overview */
 
-.analytics .overview div {
+.analytics .overview div, .settings div {
     margin: 20px 0;
     border-radius: 5px;
 }
@@ -179,6 +179,19 @@ body {
     color: red;
 }
 /* end section -2 analytics */
+
+/* start section -3 settings */
+
+.settings .settflex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.settings .settflex span {
+    color: gray;
+}
+
+/* end section -3 settings */
 
 /* end main */
 
