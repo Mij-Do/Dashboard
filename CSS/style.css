@@ -16,7 +16,9 @@ body {
 
 .header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 
 .header nav:nth-child(1) p {
@@ -96,6 +98,49 @@ body {
     color: #4A739C;
 }
 /* end section-1 */
+
+/* start section -2 analytics */
+.analytics {
+    margin: 20px 10px;
+}
+
+.analytics h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+.analytics .overview {
+    margin: auto;
+    width: 90%;
+}
+
+.analytics .overview div {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.analytics .overview span {
+    color: green;
+}
+
+.analytics .overview .NewUser {
+    margin: auto;
+}
+
+.analytics .overview .OVTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin: auto;
+}
+.analytics .overview .OVTotal .TOTUser, .ActiveUser, .NewUser {
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+/* end section -2 analytics */
 
 /* end main */
 
